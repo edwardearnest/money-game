@@ -1,0 +1,16 @@
+yaml, or lisp, or custom format for resources & cards
+
+todo - code to add up entire transaction
+
+   time required today:
+   money required today:
+   time remaining today: [also displayed in modeline/lower right
+   corner of screen - counts sleep, time to eat, work time, commute
+   time, chores time, etc. -- computes how much free/discretionary
+   time you have]
+   money required daily - estimate (monthly/30.5 or yearly/365) : 
+   money required monthly:
+       -  or -
+   money required yearly: 
+
+and let you know how much you'll have left
