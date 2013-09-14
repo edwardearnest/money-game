@@ -1,0 +1,76 @@
+I have been assuming that this would be text-based.  
+
+In my explorations of Ruby I got excited that maybe this could be a
+full-screen text game, kind of like the ones of old. Or at the very
+least be able to clear the screen between turns so that game isn't
+overwhleming.
+
+However, I was thinking about it some more this morning and I think
+that I don't really care what the interface is so long as it's:
+
+ 1. Easy to get started with.
+ 2. Fast.
+
+This means that Windows users should have a single .exe to download
+which they can run from their Downloads folder, Mac users can have a
+single .. eh, fuck the Mac users -- I don't have the time to worry
+about distrubting to them, and they have enough shiny as it is. 
+
+And GNU/Linux, FreeBSD, et. al can either:
+1. apt-get install
+2. ports install
+3. download and mark executable and go?
+
+The idea here is that a non-technical person should not be barred from
+using this game.
+
+Further, this has interesting implications for how to distrubte this
+game; I see no reason that this couldn't, for example, be entirely
+browser based.  And, in fact, with mobile being hot, this might be
+cool. 
+
+So the design goals, restated are:
+0. Allow widest adoption possible via choice of technology &
+distribution.
+1. Shit-easy to get started with.
+2. Fast -- once you're started it should be like lightening. We allow
+a two second startup time (either due to magnetic hard drives or
+limited CPU).
+
+With my assumed choice of a text based user interface -- mainly
+because I don't like graphical interfaces and because I know how to
+code a text-based interface -- I had also assumed it would be fast.
+
+Where I am going with this is I want this to be able to be like
+lightening on everything from a netbook (remember those?) to a
+Rasberry Pi, to a computer from ten years ago.  Luckily, I have almost
+all of these in my closet!
+
+With the graphics chips that ship in everything from Rasberry Pis to
+netbooks to smartphones -- I may not actually be restricted to text.
+However, I don't view it as restriction so much as an advantage.  That
+said, graphical might be worth considering, if only due to innate
+hardware acceleration.
+
+
+So, where I'm going with this is -- I probably want a language that
+can:
+1. Support compiled code or extremely fast interpretation.
+   Common Lisp and OCaml can do the former, Ruby is probably Good
+   Enough for the latter, even on a Rasberry Pi, although I should
+   test this.  The reason I keep mentioning the Rasberry Pi is not
+   only is it a cool target to hit, I dream of this being used in
+   schools someday.  I doubt it will be, but that's a fourth goal, I
+   think. Education of not just intrepid adults, but also of
+   interested kids.  Also in the third world -- although the choice of
+   whether or not to have an auto is kind of moot there, so the whole
+   thing might need to be rewritten. Point being, this thing should
+   run on computers from 2000 as a design goal, since that's what poor
+   people and third-world countries are using. (Ok, they might even be
+   using 300 mhz boxes from 1995, but we can probably support that too
+   via Rasberry Pi).
+2. Support -- ideally compiled -- to x86 as well as 64-bit as well as
+   ARM.
+   Common Lisp: CLISP (Debian: Jessie if armhf), 
+
+... 
