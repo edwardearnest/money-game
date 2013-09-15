@@ -1,0 +1,36 @@
+* <2013-09-14 Sat 19:03>
+
+  After great deliberation (read: the entire day), I have decided to go
+  with Ruby as my choice of implementation for three reasons:
+     1. I can Get Shit Done.
+     2. Potential users can type "gem install money-game" and play.
+     3. Ruby makes me feel good, not frustrated. I am overwhelmed by
+        the bounty that the community makes available to me.
+	Common Lisp, by comparison, is like a bunch of elite hackers
+        on little islands, and the join the community briefly, and
+        then leave again, leaving half-finished awesome in their wake,
+        but none of in immediately useful.
+     4. I'm lazy. Ruby is quick & easy and Good Enough. Common Lisp is
+        Better(tm), but only when the languages are considered
+        directly, and communities and ease of deployment are not
+        considered.  Common Lisp is improving, but it's not to the
+        point where it makes me *feel* like I want to spend a lot of
+        time with it. That said, when I actually hack in Common Lisp
+        it's kind of like "wow..............".  It is an amazing
+        language, and executing code directly in Emacs via SLIME is a
+        sort of transcendent experience that I'm sure is faster than
+        Ruby.  I really wanted to use Lisp because code-as-data would
+        be perfect for what I'm about to attempt here, and I'll need a
+        REPL, and implementing one in Lisp is trivial.  Of course,
+        it's pretty easy in Ruby too, but it doesn't come that way out
+        of the box in quite the same way.
+     5. Ruby is what I reach for when I need to write
+        production-quality code -- the same is true here. I'm sure
+        it'd be more elegent in Lisp, but it will probably actually
+        exist in Ruby -- by choosing Ruby the goal will be to write
+        money-game, not to learn Lisp.  It also stands a chance at
+        getting tried by more people -- people who won't have to learn
+        how to install Quicklisp (not that it's difficult, it's just
+        has more steps than: 1. Install Ruby. 2. 'gem install money-game')
+
+
