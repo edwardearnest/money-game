@@ -1,15 +1,57 @@
+* <2013-09-16 Mon 18:33>
+  Language About Face Ruby just isn't good enough and Common Lisp is
+  too high of a bar -- either for me or for my future contributors.
+
+  Which leaves Racket.  I have been unable to lay any code down for
+  the last few days -- even after ostensibly deciding to use Ruby --
+  because I knew there was something better out there: Lisp.  Racket
+  solves the following problems:
+  0. A decent language.
+  1. Easy distribution of code.  WHile not quite as slick as "gem
+     install money-game", it's almost good enough. It's an open
+     question whether Planet can install things in the same manner
+     than RubyGems can -- by which I mean make new commands appear in
+     the $PATH.  So before I think users could do 1. install
+     ruby, 2. gem install money-game 3. money-game.  It might require
+     a little more effort with Racket -- but as I'm aiming this at a
+     wide audience, I'll make the assumption that you can figure it
+     out if you're running GNU/Linux.
+  2. Serializable human-readable data structures from the start.
+     Association lists or hashes and done. Note: this has yet to be
+     proven in Racket. (Code as data)
+  3. Functional goodness.
+  4. The it-work-out-of-the-box power of Ruby coupled with the
+     programming aweso meness of Lisp. (Everytime I thought of a new
+     feature I wanted to add, I kept thinking about how much easier it
+     would be in a Lisp-like language.  Even as I am starting to
+     settle into Ruby, I keep peering up the language power curve and
+     wondering what I'm missing/thinking about what I'm sacrificing by
+     using Ruby. Note: Ruby is FUCKING AWESOME. Don't get me
+     wrong. And Racket is likely overkill for this little game I want
+     to build, but it makes a couple of things really easy -
+     distribution, data structures).
+  5. Performance.  It's a bit faster than Ruby, though not as fast as
+     Common Lisp.
+  6. It makes me smile.
+  7. Batteries included for non-programmers - no need to learn about
+     installing a text editor, or a language, or about the command
+     line (not to say that those aren't awesome, they just aren't what
+     a potential contributor is here to do)
+
+  We'll have to see how this goes. 
+
 * <2013-09-14 Sat 19:03>
 
-  After great deliberation (read: the entire day), I have decided to go
-  with Ruby as my choice of implementation for three reasons:
+  After great deliberation (read: the entire day), I have decided to
+  go with Ruby as my choice of implementation for three reasons:
      1. I can Get Shit Done.
      2. Potential users can type "gem install money-game" and play.
      3. Ruby makes me feel good, not frustrated. I am overwhelmed by
-        the bounty that the community makes available to me.
-	Common Lisp, by comparison, is like a bunch of elite hackers
-        on little islands, and the join the community briefly, and
-        then leave again, leaving half-finished awesome in their wake,
-        but none of in immediately useful.
+        the bounty that the community makes available to me.  Common
+        Lisp, by comparison, is like a bunch of elite hackers on
+        little islands, and the join the community briefly, and then
+        leave again, leaving half-finished awesome in their wake, but
+        none of in immediately useful.
      4. I'm lazy. Ruby is quick & easy and Good Enough. Common Lisp is
         Better(tm), but only when the languages are considered
         directly, and communities and ease of deployment are not
@@ -31,6 +73,7 @@
         money-game, not to learn Lisp.  It also stands a chance at
         getting tried by more people -- people who won't have to learn
         how to install Quicklisp (not that it's difficult, it's just
-        has more steps than: 1. Install Ruby. 2. 'gem install money-game')
+        has more steps than: 1. Install Ruby. 2. 'gem install
+        money-game')
 
 
