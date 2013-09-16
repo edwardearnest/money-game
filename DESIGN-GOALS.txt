@@ -74,3 +74,11 @@ can:
    Common Lisp: CLISP (Debian: Jessie if armhf), 
 
 ... 
+---------------------------
+
+Racket runs on armhf and armel in Debian Wheezy (current stable).  I
+may yet get a Rasberry Pi, if only for testing purposes, but I think
+my 1000 ghz shitty cheap netbook might sufice well enough for "testing
+on slow machines", even though that may be about three times faster
+than the Pi 'feels' since it will have a real (desktop-class)
+processor. 
