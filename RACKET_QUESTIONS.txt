@@ -1,0 +1,10 @@
+I'm betrying all the Ruby programming I've done this semester with the
+underscore in this filename.
+
+Why isn't there a racket/batteries-included or something that includes
+every SRFI and just ... everything. When I come to a language I assume
+that I'm going to be able to say String.includes or "this is a
+string".includes or (string-includes "foo") instead of first having to
+say 'require srfi13'.  Which isn't that bad, really, but still.
+
+
