@@ -14,3 +14,19 @@ todo - code to add up entire transaction
    money required yearly: 
 
 and let you know how much you'll have left
+--
+e-mail racket folks and ask them if they've consreded a way to allow
+   me to specify that I would like Racket to be memory-hungry on
+   startup, and gc only after we've been running for a while?
+   I.e. "you are allowed to allocate 25 mb of RAM and don't gc until
+   you have allocated that much" this could be summed up as "allocate
+   first, gc second".  
+Why? Because turning off GC cuts startup times almost in half (to 0.7
+   from 1.2) on a simple hello world:
+   #lang racket/base
+   (display "Hello World!!!")
+   "hi"
+
+^ nevermind -it helps if you don't run with -f
+I mean, GC still cuts times in half, but as the wole thing anly takes
+   a quarter of a second it doesn't matter as much anymore
